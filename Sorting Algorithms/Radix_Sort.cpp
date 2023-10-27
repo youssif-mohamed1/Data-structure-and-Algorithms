@@ -4,7 +4,7 @@ using namespace std;
 
 const int N = 10;
 
-// sorting array of numbers using counting sort
+// sorting array of numbers using Radix sort based on Counting sort
 int arr[N] = { 901,221,900,112,90,501,981,0,91,7 };
 
 // initialized by 10 as we has only 10 digits 0-->9
