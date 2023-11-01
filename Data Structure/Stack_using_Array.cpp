@@ -24,7 +24,7 @@ public:
         max_size = size;
     }
 
-    Stack(const Stack& other) {
+    Stack(const Stack& other) { // copy constructor
         this->arr = new T[MAX_SIZE]; // Allocate a new array
         this->t = other.t;
         for (int i = 0; i < this->t; i++) { // copying each element
@@ -32,7 +32,7 @@ public:
         }
     }
 
-    void operator= (const Stack& other) {
+    void operator= (const Stack& other) { // Assignment Operator
         if (this != &other) {  // Check for self-assignment
             delete[] this->arr;  // Deallocate the current array
             this->arr = new T[other.maxSize()];  // Allocate a new array
