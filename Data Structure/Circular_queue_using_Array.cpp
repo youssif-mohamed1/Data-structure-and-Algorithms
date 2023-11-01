@@ -14,6 +14,7 @@ private:
         max_size;
 public:
     T* arr;
+
     Circular_queue() {  // default constructor 
         arr = new T[MAX_SIZE];
         max_size = MAX_SIZE;
@@ -105,7 +106,8 @@ void print(Circular_queue<int>q) {
     }
 }
 
-void test() {
+void test() {  // testing for the Circular Queue
+    
     // Test case 1: Basic operations
     Circular_queue<int> q1(3);
     q1.push(5);
