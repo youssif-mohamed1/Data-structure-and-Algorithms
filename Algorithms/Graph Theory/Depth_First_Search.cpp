@@ -57,6 +57,7 @@ void dfs_recursive(int adj[][N], int i) { // Recursive DFS
 
 signed main() {
     int n;
+    cout<<"Enter the Size: ";
     cin >> n;
     int adj[N][N];
 
