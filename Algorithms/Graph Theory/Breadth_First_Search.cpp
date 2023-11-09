@@ -42,6 +42,7 @@ void bfs(node* tree, int n) { // Breadth-First Search function
 
 signed main() {
     int n;
+    cout<<"Enter the size: ";
     cin >> n;
     node* tree = new node[n];
 
