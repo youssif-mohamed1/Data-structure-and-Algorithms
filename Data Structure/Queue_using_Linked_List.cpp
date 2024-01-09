@@ -64,8 +64,10 @@ public:
 };
 
 
-void main() {
+void test() {
+	// put yout own tests
 }
+
 int main() {
     test(); // Run the test function
     return 0;
